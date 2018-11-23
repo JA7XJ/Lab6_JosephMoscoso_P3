@@ -1,4 +1,4 @@
-#include "Roba.h"
+#include "Ropa.h"
 
 #include <iostream>
 using std::cout;
@@ -15,9 +15,13 @@ Ropa::~Ropa(){
 
 }
 
-Ropa::Ropa(string tipo){
+Ropa::Ropa(string tipo):Productos(nombre,peso,fragil){
   this->tipo=tipo;
 }
+
+/*Ropa::Ropa(string tipo){
+  this->tipo=tipo;
+}*/
 
 string Ropa::getTipo(){
   return tipo;

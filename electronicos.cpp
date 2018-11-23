@@ -17,10 +17,15 @@ electronicos::~electronicos(){
 
 }
 
-electronicos::electronicos(string fragil, string tipo){
+electronicos::electronicos(string fragil, string tipo):Productos(nombre,peso,fragil){
   this->fragil=fragil;
   this->tipo=tipo;
 }
+
+/*electronicos::electronicos(string fragil, string tipo){
+  this->fragil=fragil;
+  this->tipo=tipo;
+}*/
 
 string electronicos::getFragil(){
   return fragil;

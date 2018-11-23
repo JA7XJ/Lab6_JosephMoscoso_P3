@@ -15,9 +15,13 @@ computadora::~computadora(){
 
 }
 
-computadora::computadora(string so){
+computadora::computadora(string so):electronicos(fragil,tipo){
   this->so=so;
 }
+
+/*computadora::computadora(string so){
+  this->so=so;
+}*/
 
 string computadora::getSo(){
   return so;

@@ -1,5 +1,10 @@
 #include "Productos.h"
 #include "Libro.h"
+#include "Ropa.h"
+#include "electronicos.h"
+#include "videojuego.h"
+#include "computadora.h"
+#include "caja.h"
 
 #include <iostream>
 using std::cout;

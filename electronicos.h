@@ -7,7 +7,7 @@ using std::string;
 #include "Productos.h"
 
 class electronicos : public Productos{
-  private:
+  protected:
     string fragil;
     string tipo;
   public:

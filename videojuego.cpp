@@ -15,9 +15,13 @@ videojuego::~videojuego(){
 
 }
 
-videojuego::videojuego(string desarrollador){
+videojuego::videojuego(string desarrollador):electronicos(fragil,tipo){
   this->desarrollador=desarrollador;
 }
+
+/*videojuego::videojuego(string desarrollador){
+  this->desarrollador=desarrollador;
+}*/
 
 string videojuego::getDesarrollador(){
   return desarrollador;

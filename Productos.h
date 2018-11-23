@@ -5,13 +5,14 @@
 using std::string;
 
 class Productos{
-  private:
+  protected:
     string nombre;
     double peso;
     string fragil;
   public:
     Productos();
     ~Productos();
+    Productos(string,double,string);
     string getNombre();
     void setNombre(string);
     double getPeso();
