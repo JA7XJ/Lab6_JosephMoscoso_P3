@@ -40,3 +40,11 @@ double caja::getPeso(){
 void caja::setPeso(double peso){
   this->peso=peso;
 }
+
+void caja::setList(vector<Productos*> lista){
+   this->lista=lista;
+}
+
+void caja::add(Productos* c){
+    lista.push_back(c);
+}
