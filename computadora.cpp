@@ -15,7 +15,7 @@ computadora::~computadora(){
 
 }
 
-computadora::computadora(string so):electronicos(fragil,tipo){
+computadora::computadora(string so, string tipo, string nombre, double peso, string fragil):electronicos(tipo,nombre,peso,fragil){
   this->so=so;
 }
 

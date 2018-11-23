@@ -12,7 +12,7 @@ class Libro : public Productos{
   public:
     Libro();
     ~Libro();
-    Libro(string);
+    Libro(string,string,double,string);
     string getCodigo();
     void setCodigo(string);
 };

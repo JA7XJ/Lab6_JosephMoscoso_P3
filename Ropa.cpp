@@ -15,7 +15,7 @@ Ropa::~Ropa(){
 
 }
 
-Ropa::Ropa(string tipo):Productos(nombre,peso,fragil){
+Ropa::Ropa(string tipo, string nombre, double peso, string fragil):Productos(nombre,peso,fragil){
   this->tipo=tipo;
 }
 

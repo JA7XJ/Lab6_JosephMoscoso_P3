@@ -15,7 +15,7 @@ videojuego::~videojuego(){
 
 }
 
-videojuego::videojuego(string desarrollador):electronicos(fragil,tipo){
+videojuego::videojuego(string desarrollador, string tipo, string nombre, double peso, string fragil):electronicos(tipo, nombre, peso, fragil){
   this->desarrollador=desarrollador;
 }
 

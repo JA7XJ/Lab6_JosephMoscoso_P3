@@ -8,14 +8,14 @@ using std::string;
 
 class electronicos : public Productos{
   protected:
-    string fragil;
+    //string fr;
     string tipo;
   public:
     electronicos();
     ~electronicos();
-    electronicos(string,string);
-    string getFragil();
-    void setFragil(string);
+    electronicos(string,string,double,string);
+    //string getFr();
+    //void setFr(string);
     string getTipo();
     void setTipo(string);
 };

@@ -45,6 +45,20 @@ void caja::setList(vector<Productos*> lista){
    this->lista=lista;
 }
 
+vector<Productos*> caja::getLista(){
+    return lista;
+}
+
 void caja::add(Productos* c){
     lista.push_back(c);
 }
+
+/*void caja::imprimir(){
+    if (lisa.empty()) {
+
+    }else{
+        for (int i = 0; i < lisa.size(); i++) {
+            cout<<lisa[i].getNombre()<<endl;
+        }
+    }
+}*/

@@ -23,7 +23,9 @@ class caja{
     double getPeso();
     void setPeso(double);
     void setList(vector <Productos*>);
+    vector<Productos*> getLista();
     void add(Productos*);
+  //  void imprimir();
 };
 
 #endif

@@ -12,7 +12,7 @@ class computadora : public electronicos{
   public:
     computadora();
     ~computadora();
-    computadora(string);
+    computadora(string,string,string,double,string);
     string getSo();
     void setSo(string);
 };

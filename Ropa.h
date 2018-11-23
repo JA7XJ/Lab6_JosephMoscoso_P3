@@ -12,7 +12,7 @@ class Ropa : public Productos{
   public:
     Ropa();
     ~Ropa();
-    Ropa(string);
+    Ropa(string,string,double,string);
     string getTipo();
     void setTipo(string);
 };

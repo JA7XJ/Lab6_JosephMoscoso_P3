@@ -12,7 +12,7 @@ class videojuego : public electronicos{
   public:
     videojuego();
     ~videojuego();
-    videojuego(string);
+    videojuego(string,string,string,double,string);
     string getDesarrollador();
     void setDesarrollador(string);
 };

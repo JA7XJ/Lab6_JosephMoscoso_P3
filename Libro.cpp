@@ -15,7 +15,7 @@ Libro::~Libro(){
 
 }
 
-Libro::Libro(string codigo):Productos(nombre,peso,fragil){
+Libro::Libro(string codigo,string nombre, double peso, string fragil):Productos(nombre,peso,fragil){
   this->codigo=codigo;
 }
 

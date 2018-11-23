@@ -9,7 +9,7 @@ using std::endl;
 using std::string;
 
 electronicos::electronicos(){
-    fragil="";
+    //fr="";
     tipo="";
 }
 
@@ -17,8 +17,8 @@ electronicos::~electronicos(){
 
 }
 
-electronicos::electronicos(string fragil, string tipo):Productos(nombre,peso,fragil){
-  this->fragil=fragil;
+electronicos::electronicos(string tipo, string nombre, double peso, string fragil):Productos(nombre,peso,fragil){
+  //this->fr=fr;
   this->tipo=tipo;
 }
 
@@ -27,13 +27,13 @@ electronicos::electronicos(string fragil, string tipo):Productos(nombre,peso,fra
   this->tipo=tipo;
 }*/
 
-string electronicos::getFragil(){
-  return fragil;
+/*string electronicos::getFr(){
+  return fr;
 }
 
-void electronicos::setFragil(string fragil){
-  this->fragil=fragil;
-}
+void electronicos::setFr(string fr){
+  this->fr=fr;
+}*/
 
 string electronicos::getTipo(){
   return tipo;
