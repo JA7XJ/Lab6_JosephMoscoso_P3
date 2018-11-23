@@ -311,7 +311,7 @@ int main(){
         cout<<"usted a salido con exito"<<endl;
     }
   }
-//  eliminar(almacen);
+  eliminar(almacen);
   return 0;
 }
 
@@ -328,7 +328,7 @@ caja*** init(int size){
   return t;
 }
 
-void eliminar(caja*** c){
+void eliminar(caja***& c){
   if(c!=NULL){
     for(int i=0;i<10;i++){
         for(int j=0;j<10;j++){
