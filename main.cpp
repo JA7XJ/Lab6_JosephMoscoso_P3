@@ -330,12 +330,12 @@ caja*** init(int size){
 
 void eliminar(caja***& c){
   if(c!=NULL){
-    for(int i=0;i<10;i++){
+    /*for(int i=0;i<10;i++){
         for(int j=0;j<10;j++){
             delete[] c;
             c[i][j]=NULL;
         }
-    }
+    }*/
     for(int i=0;i<10;i++){
         delete[] c[i];
         c[i]=NULL;
